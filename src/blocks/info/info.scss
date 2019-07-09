@@ -1,0 +1,41 @@
+.info {
+
+    margin-top: -50px;
+
+    @media screen and (max-width: $screen-sm) {
+        margin-top: -80px;
+    }
+    
+    &__title {
+        font-family: Liddar;
+        font-size: 20.3vw;
+        line-height: 1;
+        color: #a64c90;
+        text-align: right;
+
+        @media screen and (min-width: 1920px) {
+            font-size: 390px;
+        }
+
+        @media screen and (max-width: $screen-sm) {
+            font-size: 150px;
+        }
+    }
+
+    &__subtitle {
+        text-align: right;
+        font-family: Heebo;
+        font-size: 5.6vw;
+        line-height: 1;
+        font-weight: normal;
+        color: #ffffff;
+
+        @media screen and (min-width: 1920px) {
+            font-size: 108px;
+        }
+
+        @media screen and (max-width: $screen-sm) {
+            font-size: 30px;
+        }
+    }
+}

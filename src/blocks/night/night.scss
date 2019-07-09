@@ -1,0 +1,68 @@
+.night {
+    
+    @media screen and (max-width: $screen-sm) {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+
+    &__text {
+        padding-top: 40px;
+        
+        @media screen and (max-width: $screen-sm) {
+            padding-right: 0;
+        }
+    }
+
+    &__lamp {
+        @media screen and (max-width: $screen-sm) {
+            display: none;
+        }
+    }
+
+    &__title {
+        font-size: 3vw;
+        line-height: 1;
+        font-weight: 300;
+        color: #ad5096;
+        text-align: right;
+
+        @media screen and (min-width: 1920px) {
+            font-size: 50px;
+        }
+
+        @media screen and (max-width: $screen-sm) {
+            font-size: 30px;
+        }
+    }
+
+    &__descr {
+        font-size: 1.57vw;
+        line-height: 1;
+        text-align: right;
+        color: #ffffff;
+        font-weight: normal;
+
+        @media screen and (min-width: 1920px) {
+            font-size: 25px;
+        }
+
+        @media screen and (max-width: $screen-sm) {
+            font-size: 20px;
+        }
+    }
+
+    .phone {
+        margin-top: -2.6vw;
+
+        &__icon {
+            width: 6.5vw;
+            height: 6.5vw;
+
+            @media screen and (max-width: $screen-sm) {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
