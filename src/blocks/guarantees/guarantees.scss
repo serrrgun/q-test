@@ -1,10 +1,15 @@
 .guarantees {
 
-    padding-top: 75px;
+    padding-top: 63px;
 
     &__list {
         padding-left: 8%;
         padding-right: 70px;
+
+        @media screen and (max-width: $screen-md) {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
     }
 
     &__item {

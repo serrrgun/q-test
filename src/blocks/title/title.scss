@@ -6,13 +6,25 @@
     &__text {
         position: absolute;
         transform: translate(-50%, -50%);
-        top: -70%;
+        top: -65%;
         left: 50%;
-        width: 40%;
+        width: 36%;
         text-align: center;
         background: #d52629;
         font-family: Liddar;
         font-size: 3.6vw;
         color: #ffffff;
+
+        @media screen and (max-width: $screen-md) {
+            top: -10%;
+        }
+
+        @media screen and (max-width: $screen-lg) {
+            top: -40%;
+        }
+
+        @media screen and (min-width: $screen-xl) {
+            font-size: 70px;
+        }
     }
 }
