@@ -103,7 +103,7 @@
 .bg-red-wrapper {
   background-image: url(../img/bg-red.png);
   background-repeat: repeat-x;
-  padding-top: 400px; }
+  padding-top: 150px; }
 
 .bg-red {
   background-color: #d52629; }
@@ -5322,19 +5322,19 @@ a.text-dark:hover, a.text-dark:focus {
   visibility: hidden !important; }
 
 .chrome {
-  background-image: url(../img/sprite-06069834453068059.png);
+  background-image: url(../img/sprite-0013669332036609694.png);
   background-position: 0px 0px;
   width: 64px;
   height: 64px; }
 
 .github-logo {
-  background-image: url(../img/sprite-06069834453068059.png);
+  background-image: url(../img/sprite-0013669332036609694.png);
   background-position: -68px 0px;
   width: 64px;
   height: 64px; }
 
 .placeholder {
-  background-image: url(../img/sprite-06069834453068059.png);
+  background-image: url(../img/sprite-0013669332036609694.png);
   background-position: 0px -68px;
   width: 64px;
   height: 64px; }
@@ -5345,23 +5345,34 @@ a.text-dark:hover, a.text-dark:focus {
   padding-right: 10.5%;
   background: url(../img/male-sex.png);
   background-repeat: no-repeat;
-  background-position: 95.5% 47px;
+  background-position: 50% 20px;
   background-size: 14.2vw 11.1vw; }
 
 .info {
-  margin-top: -50px; }
+  padding-top: 230px; }
+  .info__text {
+    margin-bottom: 20px; }
   .info__title {
-    font-family: Liddar;
-    font-size: 20.5vw;
+    text-align: right;
+    background: url(../img/info-text-bg.png) no-repeat;
+    background-position: 15% 15px;
+    background-size: 30%;
+    font-family: Heebo;
+    font-size: 2.8vw;
+    font-weight: bold;
     line-height: 1;
-    color: #a64c90;
-    text-align: right; }
+    color: #ffffff; }
+    .info__title--tape {
+      background: url(../img/info-text-tape-bg.png) no-repeat;
+      background-position: 15% top;
+      background-size: 30%; }
   .info__subtitle {
     text-align: right;
+    margin-top: -20px;
     font-family: Heebo;
-    font-size: 5.6vw;
-    line-height: 1;
+    font-size: 5.25vw;
     font-weight: normal;
+    line-height: 1;
     color: #ffffff; }
 
 .photo {
@@ -5371,19 +5382,27 @@ a.text-dark:hover, a.text-dark:focus {
 .phone {
   margin-top: -1.2vw;
   padding-bottom: 20px; }
-  .phone__link {
-    padding-bottom: 2.8vw;
-    text-decoration: none;
+  .phone__title {
+    margin-bottom: 10px;
+    text-align: left;
     font-family: Liddar;
-    font-size: 6.9vw;
+    font-size: 3.75vw;
     line-height: 1;
-    color: #d52529;
+    color: #a64c90; }
+  .phone__link {
+    text-align: right;
+    text-decoration: none;
     background: url(../img/tel-bg.png) no-repeat;
     background-position: 55% bottom;
     background-size: contain;
     -webkit-transition: .5s ease-in-out;
-    transition: .5s ease-in-out; }
+    transition: .5s ease-in-out;
+    font-family: Liddar;
+    font-size: 6.6vw;
+    line-height: 0;
+    color: #d52529; }
   .phone__icon {
+    display: inline-block;
     margin-top: 2.8vw;
     margin-left: 20px;
     width: 7.5vw;
@@ -5402,50 +5421,49 @@ a.text-dark:hover, a.text-dark:focus {
   .night__text {
     padding-top: 40px; }
   .night__title {
-    font-size: 3vw;
-    line-height: 1;
-    font-weight: 300;
-    color: #ad5096;
-    text-align: right; }
-  .night__descr {
-    font-size: 1.57vw;
-    line-height: 1;
     text-align: right;
-    color: #ffffff;
-    font-weight: normal; }
+    font-size: 3vw;
+    font-weight: 300;
+    line-height: 1;
+    color: #ad5096; }
+  .night__descr {
+    text-align: right;
+    font-size: 1.57vw;
+    font-weight: normal;
+    line-height: 1;
+    color: #ffffff; }
   .night .phone {
     margin-top: -1.2w; }
 
 .time {
-  margin-top: -253px;
   padding-bottom: 185px; }
   .time__title {
     padding-right: 100px;
     padding-bottom: 35px;
     margin-bottom: 40px;
     text-align: right;
+    background: url(../img/card-icon.png) no-repeat;
+    background-position: right 20px;
+    background-size: 95px;
     font-family: Liddar;
     font-size: 70px;
     line-height: 1.2;
-    color: #ffffff;
-    background: url(../img/card-icon.png) no-repeat;
-    background-position: right 20px;
-    background-size: 95px; }
+    color: #ffffff; }
   .time__item-descr {
+    margin-bottom: -20px;
     font-family: Heebo;
-    font-weight: 100;
     font-size: 64px;
-    color: #ffffff;
-    margin-bottom: -20px; }
+    font-weight: 100;
+    color: #ffffff; }
   .time__sold {
     padding-left: 90px;
     margin-top: -10px;
     width: 40%;
     height: 110px;
-    font-family: Liddar;
-    color: #d52629;
     background: url(../img/time-item-icon.png) no-repeat;
-    background-position: -40px 10px; }
+    background-position: -40px 10px;
+    font-family: Liddar;
+    color: #d52629; }
     .time__sold span {
       display: inline-block;
       margin-top: -15px;
@@ -5460,12 +5478,12 @@ a.text-dark:hover, a.text-dark:focus {
   border-top: 1px solid #ffffff; }
   .title__text {
     position: absolute;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
     top: -65%;
     left: 50%;
     width: 36%;
     text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     background: #d52629;
     font-family: Liddar;
     font-size: 3.6vw;
@@ -5482,9 +5500,9 @@ a.text-dark:hover, a.text-dark:focus {
     text-align: right;
     font-family: Heebo;
     font-size: 24px;
+    font-weight: normal;
     line-height: 1.5;
-    color: #ffffff;
-    font-weight: normal; }
+    color: #ffffff; }
   .guarantees__list-icon {
     background: url(../img/harts.svg) no-repeat;
     background-size: 80%;
@@ -5522,13 +5540,13 @@ a.text-dark:hover, a.text-dark:focus {
     -webkit-transition: .5s ease-in;
     transition: .5s ease-in; }
   .button__link {
+    text-decoration: none;
+    -webkit-transition: .5s ease-in;
+    transition: .5s ease-in;
     font-family: Liddar;
     font-size: 9.3vw;
     line-height: 1;
-    text-decoration: none;
-    color: #ffffff;
-    -webkit-transition: .5s ease-in;
-    transition: .5s ease-in; }
+    color: #ffffff; }
   @media (min-width: 576px) {
     .container {
       max-width: 540px; }
@@ -8174,9 +8192,13 @@ a.text-dark:hover, a.text-dark:focus {
     text-align: center !important; } }
   @media screen and (min-width: 1920px) {
       .info__title {
-        font-size: 390px; }
+        font-size: 54px; }
       .info__subtitle {
         font-size: 108px; }
+      .phone__title {
+        font-size: 74px; }
+      .phone__link {
+        font-size: 127px; }
       .night__title {
         font-size: 50px; }
       .night__descr {
