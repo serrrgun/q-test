@@ -51,5 +51,16 @@
 
     .phone {
         margin-top: -1.2w;
+
+        .phone__link {
+            padding-bottom: 2.6vw;
+            line-height: 1;
+        }
+
+        .phone__icon {
+            width: 7.5vw;
+            height: 7.5vw;
+            margin-top: 3vw;
+        }
     }
 }

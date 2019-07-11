@@ -1,37 +1,44 @@
 .info {
 
-    margin-top: -50px;
+    padding-top: 193px;
 
     @media screen and (max-width: $screen-sm) {
         margin-top: -80px;
     }
+
+    &__text {
+        margin-bottom: 7px;
+    }
     
     &__title {
-        font-family: Liddar;
-        font-size: 20.5vw;
-        line-height: 1;
-        color: #a64c90;
         text-align: right;
+        background: url(../img/info-text-bg.png) no-repeat;
+        background-position: 0 15px;
+        background-size: 40%;
+        @include font (Heebo, 2.8vw, bold, 1, #ffffff);
 
         @media screen and (min-width: 1920px) {
-            font-size: 390px;
+            font-size: 54px;
         }
 
         @media screen and (max-width: $screen-sm) {
             font-size: 150px;
         }
+
+        &--tape {
+            background: url(../img/info-text-tape-bg.png) no-repeat;
+            background-position: 0 top;
+            background-size: 40%;
+        }
     }
 
     &__subtitle {
         text-align: right;
-        font-family: Heebo;
-        font-size: 5.6vw;
-        line-height: 1;
-        font-weight: normal;
-        color: #ffffff;
+        margin-top: -20px;
+        @include font (Heebo, 5.25vw, normal, 1, #ffffff);
 
         @media screen and (min-width: 1920px) {
-            font-size: 108px;
+            font-size: 116px;
         }
 
         @media screen and (max-width: $screen-sm) {

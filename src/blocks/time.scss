@@ -1,14 +1,14 @@
 .time {
-    padding-bottom: 185px;
+    padding-bottom: 170px;
 
     &__title {
         padding-right: 100px;
-        padding-bottom: 35px;
+        padding-bottom: 22px;
         margin-bottom: 40px;
         text-align: right;
         background: url(../img/card-icon.png) no-repeat;
         background-position: right 20px;
-        background-size: 95px;
+        background-size: 85px;
         @include font (Liddar, 70px, null, 1.2, #ffffff);
 
         @media screen and (max-width: $screen-md) {
@@ -16,6 +16,10 @@
             background-size: 50px;
             padding-right: 60px;
         }
+    }
+
+    &__list {
+        margin-top: -9px;
     }
 
     &__item-descr {

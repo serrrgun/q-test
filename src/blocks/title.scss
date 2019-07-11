@@ -5,15 +5,13 @@
 
     &__text {
         position: absolute;
-        transform: translate(-50%, -50%);
-        top: -65%;
+        top: -55%;
         left: 50%;
         width: 36%;
         text-align: center;
+        transform: translate(-50%, -50%);
         background: #d52629;
-        font-family: Liddar;
-        font-size: 3.6vw;
-        color: #ffffff;
+        @include font (Liddar, 3.6vw, null, null, #ffffff);
 
         @media screen and (max-width: $screen-md) {
             top: -10%;

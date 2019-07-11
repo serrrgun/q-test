@@ -1,27 +1,43 @@
 .phone {
     margin-top: -1.2vw;
     padding-bottom: 20px;
+
+    &__title {
+        margin-bottom: 10px;
+        text-align: left;
+        @include font (Liddar, 3.75vw, null, 1, #a64c90);
+
+        @media screen and (min-width: 1920px) {
+            font-size: 74px;
+        } 
+    }
     
     &__link {
-        padding-bottom: 2.8vw;
+        text-align: right;
         text-decoration: none;
         background: url(../img/tel-bg.png) no-repeat;
         background-position: 55% bottom;
         background-size: contain;
         transition: .5s ease-in-out;
-        @include font (Liddar, 6.9vw, null, 1, #d52529);
+        @include font (Liddar, 6.6vw, null, 0, #d52529);
 
         @media screen and (max-width: $screen-sm) {
             font-size: 50px;
             padding-bottom: 20px;
         }
+
+        @media screen and (min-width: 1920px) {
+            font-size: 127px;
+        }
     }
 
     &__icon {
-        margin-top: 2.8vw;
+        display: inline-block;
+        margin-top: 4vw;
         margin-left: 20px;
-        width: 7.5vw;
-        height: 7.5vw;
+        margin-right: 13px;
+        width: 8.7vw;
+        height: 8.7vw;
         background: url(../img/tel-icon.png) no-repeat;
         background-size: contain;
 
