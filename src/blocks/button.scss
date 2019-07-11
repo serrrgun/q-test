@@ -14,12 +14,9 @@
     }
 
     &__link {
-        font-family: Liddar;
-        font-size: 9.3vw;
-        line-height: 1;
         text-decoration: none;
-        color: #ffffff;
         transition: .5s ease-in;
+        @include font (Liddar, 9.3vw, null, 1, #ffffff);
 
         @media screen and (max-width: $screen-md) {
             font-size: 80px;

@@ -24,11 +24,8 @@
     }
 
     &__title {
-        font-size: 3vw;
-        line-height: 1;
-        font-weight: 300;
-        color: #ad5096;
         text-align: right;
+        @include font (null, 3vw, 300, 1, #ad5096);
 
         @media screen and (min-width: 1920px) {
             font-size: 50px;
@@ -40,11 +37,8 @@
     }
 
     &__descr {
-        font-size: 1.57vw;
-        line-height: 1;
         text-align: right;
-        color: #ffffff;
-        font-weight: normal;
+        @include font (null, 1.57vw, normal, 1, #ffffff);
 
         @media screen and (min-width: 1920px) {
             font-size: 25px;

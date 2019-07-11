@@ -1,23 +1,15 @@
 .time {
-    margin-top: -253px;
     padding-bottom: 185px;
-
-    &__img {
-
-    }
 
     &__title {
         padding-right: 100px;
         padding-bottom: 35px;
         margin-bottom: 40px;
         text-align: right;
-        font-family: Liddar;
-        font-size: 70px;
-        line-height: 1.2;
-        color: #ffffff;
         background: url(../img/card-icon.png) no-repeat;
         background-position: right 20px;
         background-size: 95px;
+        @include font (Liddar, 70px, null, 1.2, #ffffff);
 
         @media screen and (max-width: $screen-md) {
             font-size: 50px;
@@ -27,13 +19,8 @@
     }
 
     &__item-descr {
-        font-family: Heebo;
-        font-weight: 100;
-        font-size: 64px;
-        color: #ffffff;
         margin-bottom: -20px;
-
-        
+        @include font (Heebo, 64px, 100, null, #ffffff);
 
         @media screen and (max-width: $screen-md) {
             font-size: 20px;
@@ -49,10 +36,9 @@
         margin-top: -10px;
         width: 40%;
         height: 110px;
-        font-family: Liddar;
-        color: #d52629;
         background: url(../img/time-item-icon.png) no-repeat;
         background-position: -40px 10px;
+        @include font (Liddar, null, null, null, #d52629);
 
         @media screen and (max-width: $screen-sm) {
             width: 60% !important;

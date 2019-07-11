@@ -2,19 +2,14 @@
     margin-top: -1.2vw;
     padding-bottom: 20px;
     
-
-    
     &__link {
         padding-bottom: 2.8vw;
         text-decoration: none;
-        font-family: Liddar;
-        font-size: 6.9vw;
-        line-height: 1;
-        color: #d52529;
         background: url(../img/tel-bg.png) no-repeat;
         background-position: 55% bottom;
         background-size: contain;
         transition: .5s ease-in-out;
+        @include font (Liddar, 6.9vw, null, 1, #d52529);
 
         @media screen and (max-width: $screen-sm) {
             font-size: 50px;

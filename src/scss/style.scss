@@ -4,6 +4,7 @@
 @import 'variables.scss';
 @import 'fonts.scss';
 @import 'global.scss';
+@import 'mixin.scss';
 
 // Bootstrap 4
 @import "node_modules/bootstrap/scss/bootstrap.scss";
@@ -15,12 +16,12 @@
 
 // БЭМ-блоки. Один БЭМ-блок = 1 файл. ВСЕГДА.
 
-@import './src/blocks/information/information.scss';
-@import './src/blocks/info/info.scss';
-@import './src/blocks/photo/photo.scss';
-@import './src/blocks/phone/phone.scss';
-@import './src/blocks/night/night.scss';
-@import './src/blocks/time/time.scss';
-@import './src/blocks/title/title.scss';
-@import './src/blocks/guarantees/guarantees.scss';
-@import './src/blocks/button/button.scss';
+@import './src/blocks/information.scss';
+@import './src/blocks/info.scss';
+@import './src/blocks/photo.scss';
+@import './src/blocks/phone.scss';
+@import './src/blocks/night.scss';
+@import './src/blocks/time.scss';
+@import './src/blocks/title.scss';
+@import './src/blocks/guarantees.scss';
+@import './src/blocks/button.scss';

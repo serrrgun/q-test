@@ -18,11 +18,7 @@
 
     &__item-descr {
         text-align: right;
-        font-family: Heebo;
-        font-size: 24px;
-        line-height: 1.5;
-        color: #ffffff;
-        font-weight: normal;
+        @include font (Heebo, 24px, normal, 1.5, #ffffff);
     }
 
     &__list-icon {
