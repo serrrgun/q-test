@@ -8232,7 +8232,7 @@ a.text-dark:hover, a.text-dark:focus {
   @media screen and (min-width: 1920px) {
       .info__title {
         font-size: 54px;
-        background-size: 13vw; }
+        background-size: 30vw; }
         .info__title--tape {
           background-size: 30vw; }
       .info__subtitle {
