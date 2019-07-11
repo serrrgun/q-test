@@ -5342,21 +5342,21 @@ a.text-dark:hover, a.text-dark:focus {
 .information {
   padding-top: 36px;
   padding-left: 3.9%;
-  padding-right: 10.5%;
+  padding-right: 12%;
   background: url(../img/male-sex.png);
   background-repeat: no-repeat;
-  background-position: 50% 20px;
+  background-position: 50.2% 15px;
   background-size: 14.2vw 11.1vw; }
 
 .info {
-  padding-top: 230px; }
+  padding-top: 193px; }
   .info__text {
-    margin-bottom: 20px; }
+    margin-bottom: 7px; }
   .info__title {
     text-align: right;
     background: url(../img/info-text-bg.png) no-repeat;
-    background-position: 15% 15px;
-    background-size: 30%;
+    background-position: 0 15px;
+    background-size: 40%;
     font-family: Heebo;
     font-size: 2.8vw;
     font-weight: bold;
@@ -5364,8 +5364,8 @@ a.text-dark:hover, a.text-dark:focus {
     color: #ffffff; }
     .info__title--tape {
       background: url(../img/info-text-tape-bg.png) no-repeat;
-      background-position: 15% top;
-      background-size: 30%; }
+      background-position: 0 top;
+      background-size: 40%; }
   .info__subtitle {
     text-align: right;
     margin-top: -20px;
@@ -5403,10 +5403,11 @@ a.text-dark:hover, a.text-dark:focus {
     color: #d52529; }
   .phone__icon {
     display: inline-block;
-    margin-top: 2.8vw;
+    margin-top: 4vw;
     margin-left: 20px;
-    width: 7.5vw;
-    height: 7.5vw;
+    margin-right: 13px;
+    width: 8.7vw;
+    height: 8.7vw;
     background: url(../img/tel-icon.png) no-repeat;
     background-size: contain; }
   .phone:hover a {
@@ -5434,21 +5435,30 @@ a.text-dark:hover, a.text-dark:focus {
     color: #ffffff; }
   .night .phone {
     margin-top: -1.2w; }
+    .night .phone .phone__link {
+      padding-bottom: 2.6vw;
+      line-height: 1; }
+    .night .phone .phone__icon {
+      width: 7.5vw;
+      height: 7.5vw;
+      margin-top: 3vw; }
 
 .time {
-  padding-bottom: 185px; }
+  padding-bottom: 170px; }
   .time__title {
     padding-right: 100px;
-    padding-bottom: 35px;
+    padding-bottom: 22px;
     margin-bottom: 40px;
     text-align: right;
     background: url(../img/card-icon.png) no-repeat;
     background-position: right 20px;
-    background-size: 95px;
+    background-size: 85px;
     font-family: Liddar;
     font-size: 70px;
     line-height: 1.2;
     color: #ffffff; }
+  .time__list {
+    margin-top: -9px; }
   .time__item-descr {
     margin-bottom: -20px;
     font-family: Heebo;
@@ -5478,7 +5488,7 @@ a.text-dark:hover, a.text-dark:focus {
   border-top: 1px solid #ffffff; }
   .title__text {
     position: absolute;
-    top: -65%;
+    top: -55%;
     left: 50%;
     width: 36%;
     text-align: center;
@@ -5490,12 +5500,12 @@ a.text-dark:hover, a.text-dark:focus {
     color: #ffffff; }
 
 .guarantees {
-  padding-top: 63px; }
+  padding-top: 68px; }
   .guarantees__list {
     padding-left: 8%;
     padding-right: 70px; }
   .guarantees__item {
-    margin-bottom: 70px; }
+    margin-bottom: 60px; }
   .guarantees__item-descr {
     text-align: right;
     font-family: Heebo;
@@ -5509,7 +5519,7 @@ a.text-dark:hover, a.text-dark:focus {
     background-position: 110px 20px; }
   .guarantees__icon {
     position: relative;
-    height: 175px;
+    height: 165px;
     width: 125px; }
     .guarantees__icon::before {
       content: "";
@@ -8194,7 +8204,7 @@ a.text-dark:hover, a.text-dark:focus {
       .info__title {
         font-size: 54px; }
       .info__subtitle {
-        font-size: 108px; }
+        font-size: 116px; }
       .phone__title {
         font-size: 74px; }
       .phone__link {
