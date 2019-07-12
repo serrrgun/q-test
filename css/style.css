@@ -5322,19 +5322,19 @@ a.text-dark:hover, a.text-dark:focus {
   visibility: hidden !important; }
 
 .chrome {
-  background-image: url(../img/sprite-0013669332036609694.png);
+  background-image: url(../img/sprite-01953600765219572.png);
   background-position: 0px 0px;
   width: 64px;
   height: 64px; }
 
 .github-logo {
-  background-image: url(../img/sprite-0013669332036609694.png);
+  background-image: url(../img/sprite-01953600765219572.png);
   background-position: -68px 0px;
   width: 64px;
   height: 64px; }
 
 .placeholder {
-  background-image: url(../img/sprite-0013669332036609694.png);
+  background-image: url(../img/sprite-01953600765219572.png);
   background-position: 0px -68px;
   width: 64px;
   height: 64px; }
@@ -5562,7 +5562,8 @@ a.text-dark:hover, a.text-dark:focus {
   padding-bottom: 35px;
   margin-bottom: 50px;
   background: url(../img/tel-bg.png) no-repeat;
-  background-position: bottom center; }
+  background-position: bottom center;
+  background-size: 80%; }
   .phone-mobile__title {
     font-family: Liddar;
     font-size: 11.25vw;
@@ -5572,9 +5573,11 @@ a.text-dark:hover, a.text-dark:focus {
   .phone-mobile__wrapper {
     background: #d52629;
     border-radius: 50px;
-    height: 100px; }
+    height: 15.8vw; }
     .phone-mobile__wrapper:hover {
       background: rgba(213, 38, 41, 0.8); }
+    .phone-mobile__wrapper:hover a {
+      text-decoration: none; }
   .phone-mobile__link {
     font-family: Liddar;
     font-size: 19.8vw;
@@ -8231,10 +8234,7 @@ a.text-dark:hover, a.text-dark:focus {
     text-align: center !important; } }
   @media screen and (min-width: 1920px) {
       .info__title {
-        font-size: 54px;
-        background-size: 30vw; }
-        .info__title--tape {
-          background-size: 30vw; }
+        font-size: 54px; }
       .info__subtitle {
         font-size: 116px; }
       .phone__title {
@@ -8271,39 +8271,18 @@ a.text-dark:hover, a.text-dark:focus {
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
-  @media screen and (max-width: 992px) {
-    .phone__wrapper {
-      display: none; }
-      .phone__icon {
-        width: 21vw;
-        height: 21vw;
-        margin-top: 25px; }
-      .time__title {
-        font-size: 50px;
-        background-size: 50px;
-        padding-right: 60px; }
-      .time__item-descr {
-        font-size: 20px; }
-      .time__sold {
-        background-size: contain;
-        width: 40%;
-        background-position: -25px 4px;
-        height: 80px;
-        padding-left: 70px; }
-        .time__sold span {
-          font-size: 60px;
-          margin-top: 0; }
-        .time__sold span:nth-of-type(1) {
-          font-size: 40px; }
-      .title__text {
-        top: -10%; }
-      .guarantees__list {
-        padding-left: 15px;
-        padding-right: 15px; }
-    .button {
-      margin-top: -50px; }
-      .button__link {
-        font-size: 80px; } }
+  @media (max-width: 1199.98px) {
+  .table-responsive-xl {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; }
+    .table-responsive-xl > .table-bordered {
+      border: 0; }
+  .navbar-expand-xl > .container,
+  .navbar-expand-xl > .container-fluid {
+    padding-right: 0;
+    padding-left: 0; } }
   @media (prefers-reduced-motion: reduce) {
     .form-control {
       -webkit-transition: none;
@@ -8360,6 +8339,140 @@ a.text-dark:hover, a.text-dark:focus {
       .carousel-indicators li {
         -webkit-transition: none;
         transition: none; } }
+  @media screen and (max-width: 550px) {
+      .guarantees__list {
+        width: 100%; }
+      .guarantees__list-icon {
+        display: none; } }
+  @media screen and (max-width: 1200px) {
+    .information {
+      padding-left: 5%;
+      padding-right: 5%;
+      background: none; }
+    .info {
+      margin-left: -50%;
+      padding-top: 50px; }
+      .info__title {
+        font-size: 3.5vw; }
+      .info__subtitle {
+        font-size: 6vw; }
+    .photo {
+      margin-left: -10%; }
+      .title__text {
+        top: -40%; } }
+  @media screen and (max-width: 768px) {
+    .info {
+      padding-top: 20px; }
+      .info__title {
+        font-size: 5.5vw;
+        margin-bottom: 10px; }
+      .phone__link {
+        font-size: 50px;
+        padding-bottom: 20px; }
+    .night {
+      padding-left: 5%;
+      padding-right: 5%; }
+      .night__text {
+        padding-right: 0; }
+      .night__title {
+        font-size: 6.7vw; }
+      .night__descr {
+        font-size: 3.9vw; }
+      .night .phone {
+        display: none !important; } }
+  @media (max-width: 575.98px) {
+  .table-responsive-sm {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; }
+    .table-responsive-sm > .table-bordered {
+      border: 0; }
+  .navbar-expand-sm > .container,
+  .navbar-expand-sm > .container-fluid {
+    padding-right: 0;
+    padding-left: 0; } }
+  @media screen and (max-width: 992px) {
+      .info__title {
+        font-size: 4.5vw;
+        background-position: 0;
+        background-size: 30vw; }
+      .info__subtitle {
+        font-size: 12.1vw; }
+    .phone__wrapper {
+      display: none; }
+      .phone__icon {
+        width: 21vw;
+        height: 21vw;
+        margin-top: 25px; }
+    .time {
+      padding-bottom: 80px; }
+      .time__title {
+        padding-right: 0;
+        padding-top: 15.6vw;
+        text-align: center;
+        font-size: 9.37vw;
+        background-size: 18vw;
+        background-position: center top; }
+      .time__list {
+        padding-left: 25px;
+        padding-right: 25px; }
+      .time__item-descr {
+        font-size: 6vw; }
+      .time__sold {
+        background-size: 255px 109px;
+        width: 260px;
+        height: 110px;
+        padding-left: 50px; }
+        .time__sold span {
+          font-size: 118px;
+          margin-top: -34px; }
+        .time__sold span:nth-of-type(1) {
+          font-size: 40px;
+          margin-left: 10px; }
+      .title__text {
+        top: -40%;
+        font-size: 9.3vw;
+        width: 90%; }
+    .guarantees {
+      padding-left: 25px;
+      padding-right: 25px; }
+      .guarantees__list {
+        padding-left: 15px;
+        padding-right: 15px; }
+      .guarantees__list-icon {
+        background: none; }
+    .button {
+      margin-top: -50px; }
+      .button__link {
+        font-size: 80px; } }
+  @media screen and (max-width: 640px) {
+    .photo {
+      margin-left: -25% !important; }
+      .night__text {
+        padding-top: 10px;
+        padding-left: 0; }
+    .time__item {
+      margin-bottom: 70px; }
+    .time__item:nth-of-type(2) {
+      margin-bottom: 0; }
+      .time__item-descr {
+        width: 100%;
+        margin-left: -30%;
+        margin-top: -120px;
+        font-size: 9vw; }
+        .time__sold span {
+          font-size: 18.4vw; } }
+  @media screen and (max-width: 560px) {
+      .time__item-descr {
+        font-size: 6vw !important; } }
+  @media screen and (max-width: 639px) {
+      .time__sold {
+        padding-left: 55px;
+        padding-top: 50px; } }
+  @media screen and (max-width: 500px) {
+      .title__text {
+        top: -30%; } }
   @media print {
   .d-print-none {
     display: none !important; }
@@ -8440,73 +8553,5 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
-  @media screen and (max-width: 1200px) {
-    .information {
-      padding-left: 5%;
-      padding-right: 5%;
-      background: none; }
-    .info {
-      margin-left: -50%; }
-      .info__title {
-        font-size: 3.5vw; }
-      .info__subtitle {
-        font-size: 6vw; }
-    .photo {
-      margin-left: -10%; }
-      .title__text {
-        top: -40%; } }
-  @media screen and (max-width: 768px) {
-    .info {
-      padding-top: 50px; }
-      .info__title {
-        font-size: 5.5vw;
-        background-size: 30vw; }
-      .info__subtitle {
-        font-size: 12.1vw; }
-      .phone__link {
-        font-size: 50px;
-        padding-bottom: 20px; }
-    .night {
-      padding-left: 5%;
-      padding-right: 5%; }
-      .night__text {
-        padding-right: 0; }
-      .night__title {
-        font-size: 30px; }
-      .night__descr {
-        font-size: 20px; }
-      .night .phone {
-        display: none !important; }
-      .time__item-descr {
-        font-size: 16px; }
-      .time__sold {
-        width: 60% !important; } }
-  @media (max-width: 575.98px) {
-  .table-responsive-sm {
-    display: block;
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch; }
-    .table-responsive-sm > .table-bordered {
-      border: 0; }
-  .navbar-expand-sm > .container,
-  .navbar-expand-sm > .container-fluid {
-    padding-right: 0;
-    padding-left: 0; } }
-  @media screen and (max-width: 640px) {
-    .photo {
-      margin-left: -25%; } }
-  @media (max-width: 1199.98px) {
-  .table-responsive-xl {
-    display: block;
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch; }
-    .table-responsive-xl > .table-bordered {
-      border: 0; }
-  .navbar-expand-xl > .container,
-  .navbar-expand-xl > .container-fluid {
-    padding-right: 0;
-    padding-left: 0; } }
 
 /*# sourceMappingURL=style.css.map */
