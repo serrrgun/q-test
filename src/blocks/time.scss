@@ -1,6 +1,10 @@
 .time {
     padding-bottom: 170px;
 
+    @media screen and (max-width: $screen-md) {
+        padding-bottom: 80px;
+    }
+
     &__title {
         padding-right: 100px;
         padding-bottom: 22px;
@@ -12,26 +16,54 @@
         @include font (Liddar, 70px, null, 1.2, #ffffff);
 
         @media screen and (max-width: $screen-md) {
-            font-size: 50px;
-            background-size: 50px;
-            padding-right: 60px;
+            padding-right: 0;
+            padding-top: 15.6vw;
+            text-align: center;
+            font-size: 9.37vw;
+            background-size: 18vw;
+            background-position: center top;
         }
     }
 
     &__list {
         margin-top: -9px;
+
+        @media screen and (max-width: $screen-md) {
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+    }
+
+    &__item {
+        @media screen and (max-width: $screen-xs) {
+            margin-bottom: 70px;
+        }
+
+        &:nth-of-type(2) {
+            @media screen and (max-width: $screen-xs) {
+                margin-bottom: 0;
+            }
+    
+        }
     }
 
     &__item-descr {
         margin-bottom: -20px;
         @include font (Heebo, 64px, 100, null, #ffffff);
 
-        @media screen and (max-width: $screen-md) {
-            font-size: 20px;
+        @media screen and (max-width: 560px) {
+            font-size: 6vw !important;
         }
 
-        @media screen and (max-width: $screen-sm) {
-            font-size: 16px;
+        @media screen and (max-width: $screen-md) {
+            font-size: 6vw;
+        }
+
+        @media screen and (max-width: $screen-xs) {
+            width: 100%;
+            margin-left: -30%;
+            margin-top: -120px;
+            font-size: 9vw;
         }
     }
 
@@ -44,16 +76,16 @@
         background-position: -40px 10px;
         @include font (Liddar, null, null, null, #d52629);
 
-        @media screen and (max-width: $screen-sm) {
-            width: 60% !important;
+        @media screen and (max-width: 639px) {
+            padding-left: 55px;
+            padding-top: 50px;
         }
 
         @media screen and (max-width: $screen-md) {
-            background-size: contain;
-            width: 40%;
-            background-position: -25px 4px;
-            height: 80px;
-            padding-left: 70px;
+            background-size: 255px 109px;
+            width: 260px;
+            height: 110px;
+            padding-left: 50px;
         }
 
 
@@ -63,9 +95,13 @@
             font-size: 105px;
             line-height: 1;
 
+            @media screen and (max-width: $screen-xs) {
+                font-size: 18.4vw;
+            }
+
             @media screen and (max-width: $screen-md) {
-                font-size: 60px;
-                margin-top: 0;
+                font-size: 118px;
+                margin-top: -34px;
             }
         }
 
@@ -74,6 +110,7 @@
 
             @media screen and (max-width: $screen-md) {
                 font-size: 40px;
+                margin-left: 10px;
             }
         }
     }

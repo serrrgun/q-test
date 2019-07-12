@@ -1,4 +1,12 @@
 .photo {
     background: url(../img/information-bg.png) no-repeat; 
     background-size: contain;
+
+    @media screen and (max-width: $screen-xs) {
+        margin-left: -25% !important;
+    }
+
+    @media screen and (max-width: $screen-lg) {
+        margin-left: -10%;
+    }
 }

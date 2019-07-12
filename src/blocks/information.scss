@@ -7,8 +7,9 @@
     background-position: 50.2% 15px;
     background-size: 14.2vw 11.1vw;
 
-    @media screen and (max-width: $screen-sm) {
+    @media screen and (max-width: $screen-lg) {
         padding-left: 5%;
         padding-right: 5%;
+        background: none;
     }
 }

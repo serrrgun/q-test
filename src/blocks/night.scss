@@ -8,18 +8,16 @@
         padding-right: 5%;
     }
     
-
     &__text {
         padding-top: 40px;
         
         @media screen and (max-width: $screen-sm) {
             padding-right: 0;
         }
-    }
 
-    &__lamp {
-        @media screen and (max-width: $screen-sm) {
-            display: none;
+        @media screen and (max-width: $screen-xs) {
+            padding-top: 10px;
+            padding-left: 0;
         }
     }
 
@@ -32,7 +30,7 @@
         }
 
         @media screen and (max-width: $screen-sm) {
-            font-size: 30px;
+            font-size: 6.7vw;
         }
     }
 
@@ -45,7 +43,7 @@
         }
 
         @media screen and (max-width: $screen-sm) {
-            font-size: 20px;
+            font-size: 3.9vw;
         }
     }
 
@@ -62,5 +60,11 @@
             height: 7.5vw;
             margin-top: 3vw;
         }
+
+        @media screen and (max-width: $screen-sm) {
+            display: none !important;
+        }
     }
+
+    
 }

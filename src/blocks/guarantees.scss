@@ -2,6 +2,11 @@
 
     padding-top: 68px;
 
+    @media screen and (max-width: $screen-md) {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
     &__list {
         padding-left: 8%;
         padding-right: 70px;
@@ -9,6 +14,10 @@
         @media screen and (max-width: $screen-md) {
             padding-left: 15px;
             padding-right: 15px;
+        }
+
+        @media screen and (max-width: 550px) {
+            width: 100%;
         }
     }
 
@@ -25,6 +34,14 @@
         background: url(../img/harts.svg) no-repeat;
         background-size: 80%;
         background-position: 110px 20px;
+
+        @media screen and (max-width: $screen-md) {
+            background: none;
+        }
+
+        @media screen and (max-width: 550px) {
+            display: none;
+        }
     }
 
     &__icon {

@@ -1,0 +1,39 @@
+.phone-mobile {
+
+    padding-bottom: 35px;
+    margin-bottom: 50px;
+    background: url(../img/tel-bg.png) no-repeat;
+    background-position: bottom center;
+    background-size: 80%;
+
+    &__title {
+        @include font (Liddar, 11.25vw, null, 1, #a64c90);
+        margin-bottom: 30px;
+    }
+
+    &__wrapper {
+        background: #d52629;
+        border-radius: 50px;
+        height: 15.8vw;
+
+        &:hover {
+            background: rgba($color: #d52629, $alpha: 0.8);
+        }
+
+        &:hover a {
+            text-decoration: none;
+        }
+    }
+
+    &__link {
+        @include font (Liddar, 19.8vw, null, 0, #ffffff);
+        display: block;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 100%;
+    }
+
+    @media (min-width: $screen-sm) {
+        display: none;
+    }
+}

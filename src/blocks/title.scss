@@ -13,8 +13,14 @@
         background: #d52629;
         @include font (Liddar, 3.6vw, null, null, #ffffff);
 
+        @media screen and (max-width: 500px) {
+            top: -30%;
+        }
+
         @media screen and (max-width: $screen-md) {
-            top: -10%;
+            top: -40%;
+            font-size: 9.3vw;
+            width: 90%;
         }
 
         @media screen and (max-width: $screen-lg) {

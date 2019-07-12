@@ -2,6 +2,12 @@
     margin-top: -1.2vw;
     padding-bottom: 20px;
 
+    &__wrapper {
+        @media screen and (max-width: $screen-md) {
+            display: none;
+        }
+    }
+
     &__title {
         margin-bottom: 10px;
         text-align: left;
@@ -41,9 +47,9 @@
         background: url(../img/tel-icon.png) no-repeat;
         background-size: contain;
 
-        @media screen and (max-width: $screen-sm) {
-            width: 60px;
-            height: 60px;
+        @media screen and (max-width: $screen-md) {
+            width: 21vw;
+            height: 21vw;
             margin-top: 25px;
         }
     }
