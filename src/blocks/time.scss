@@ -95,6 +95,11 @@
             font-size: 105px;
             line-height: 1;
 
+            @media screen and (max-width: 480px) {
+                font-size: 18.4vw;
+                margin-top: -25px;
+            }
+
             @media screen and (max-width: $screen-xs) {
                 font-size: 18.4vw;
             }
