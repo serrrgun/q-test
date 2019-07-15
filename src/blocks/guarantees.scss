@@ -1,46 +1,49 @@
 .guarantees {
 
-    padding-top: 68px;
+    padding-top: 40px;
 
     @media screen and (max-width: $screen-md) {
         padding-left: 25px;
         padding-right: 25px;
     }
 
+    @media (min-width: $screen-md) {
+        margin-bottom: 40px;
+    }
+
     &__list {
         padding-left: 8%;
         padding-right: 70px;
-
-        @media screen and (max-width: $screen-md) {
-            padding-left: 15px;
-            padding-right: 15px;
-        }
-
-        @media screen and (max-width: 550px) {
-            width: 100%;
-        }
-    }
-
-    &__item {
-        margin-bottom: 60px;
-    }
-
-    &__item-descr {
-        text-align: right;
-        @include font (Heebo, 24px, normal, 1.5, #ffffff);
-    }
-
-    &__list-icon {
         background: url(../img/harts.svg) no-repeat;
-        background-size: 80%;
-        background-position: 110px 20px;
+        background-size: 40%;
+        background-position: 100% -4px;
 
         @media screen and (max-width: $screen-md) {
             background: none;
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+
+    &__item-descr {
+        width: 40%;
+        margin-right: 9%;
+        text-align: right;
+        @include font (Heebo, 24px, normal, 1.5, #ffffff);
+
+        @media (min-width: $screen-xs) and (max-width: $screen-md) {
+            flex-grow: 1;
+            font-size: 25px;
+        }
+
+        @media (min-width: 550px) and (max-width: $screen-xs) {
+            font-size: 3.75vw;
+            flex-grow: 1;
         }
 
         @media screen and (max-width: 550px) {
-            display: none;
+            font-size: 4.5vw;
+            flex-grow: 1
         }
     }
 
@@ -48,6 +51,30 @@
         position: relative;
         height: 165px;
         width: 125px;
+
+        @media screen and (max-width: 550px) {
+            background-size: 100px;
+            width: 100px;
+        } 
+
+        &--reward {
+            background: url(../img/reward-icon.png) no-repeat;
+            background-size: 125px;
+        }
+    
+        &--contract {
+            background: url(../img/contract-icon.png) no-repeat;
+            background-size: 125px;
+        }
+    
+        &--shield {
+            background: url(../img/shield-icon.png) no-repeat;
+            background-size: 125px;
+
+            &:before {
+                display: none;
+            }
+        }
 
         &::before {
             content: "";
@@ -57,28 +84,11 @@
             bottom: 0;
             left: 50%;
             border-left: 1px dashed #ffffff;
+
+            @media screen and (max-width: 550px) {
+                height: 70px;
+            } 
             
         }
-    }
-
-    &__icon:nth-last-of-type(1) {
-        &::before {
-            display: none;
-        }
-    }
-
-    &__icon:nth-of-type(1) {
-        background: url(../img/reward-icon.png) no-repeat;
-        background-size: 125px;
-    }
-
-    &__icon:nth-of-type(2) {
-        background: url(../img/contract-icon.png) no-repeat;
-        background-size: 125px;
-    }
-
-    &__icon:nth-of-type(3) {
-        background: url(../img/shield-icon.png) no-repeat;
-        background-size: 125px;
     }
 }

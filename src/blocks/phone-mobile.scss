@@ -4,7 +4,7 @@
     margin-bottom: 50px;
     background: url(../img/tel-bg.png) no-repeat;
     background-position: bottom center;
-    background-size: 80%;
+    background-size: 60%;
 
     &__title {
         @include font (Liddar, 11.25vw, null, 1, #a64c90);
@@ -33,7 +33,25 @@
         height: 100%;
     }
 
-    @media (min-width: $screen-sm) {
+    @media (min-width: 769px) {
         display: none;
+    }
+}
+
+.phone-mobile.white {
+    background: url(../img/tel-bg-white.png) no-repeat;
+    background-position: bottom center;
+    background-size: 60%;
+    margin-bottom: 0;
+    padding-bottom: 28px;
+
+    .phone-mobile__wrapper {
+        background-color: #ffffff;
+    }
+    .phone-mobile__title {
+        color: #ffffff;
+    }
+    .phone-mobile__link {
+        color: #d52629;
     }
 }

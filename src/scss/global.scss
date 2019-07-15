@@ -38,6 +38,7 @@
 
     &__content {
         flex-grow: 1;
+        overflow: hidden;
     }
 }
 
@@ -49,6 +50,7 @@
 
 .bg-red {
     background-color: #d52629;
+    padding-bottom: 50px;
 }
 
 .visually-hidden {

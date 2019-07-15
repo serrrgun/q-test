@@ -16,62 +16,62 @@
     }
     
     &__title {
-        text-align: right;
-        background: url(../img/info-text-bg.png) no-repeat;
-        background-position: 0 15px;
-        background-size: 11vw;
-        @include font (Heebo, 2.8vw, bold, 1, #ffffff);
 
-        @media screen and (min-width: 1920px) {
-            font-size: 54px;
-        }
+        display: flex;
+        justify-content: space-between;
 
         @media screen and (max-width: $screen-lg) {
-            font-size: 3.5vw;
-        }
-
-        @media screen and (max-width: $screen-md) {
-            font-size:  4.5vw !important;
-            background-position: 0;
-            background-size: 30vw;
-        }
-
-        @media screen and (max-width: $screen-sm) {
-            font-size: 5.5vw;
             margin-bottom: 10px;
         }
 
-        &--tape {
-            background: url(../img/info-text-tape-bg.png) no-repeat;
-            background-position: 0 top;
-            background-size: 11vw;
+        &-icon {
+            width: 44%;
+            background: url(../img/info-text-bg.png) no-repeat;
+            background-position: left center;
+            background-size: contain;
+            
 
-            @media screen and (min-width: 1920px) {
-                //background-size: 30vw;
+            &--tape {
+                background: url(../img/info-text-tape-bg.png) no-repeat;
+                background-size: contain;
+                background-position: left center;
+            }
+        }
+
+        &-desc {
+            @include font (Heebo, 2.81vw, bold, 1, #ffffff);
+            text-align: right;
+            display: inline-block;
+
+            @media screen and (max-width: $screen-md) {
+                font-size: 5.5vw;
+            }
+
+            @media (min-width: $screen-md) and (max-width: $screen-lg) {
+                font-size: 2.8vw;
             }
             
+            @media screen and (min-width: 1920px) {
+                font-size: 54px;
+            }
         }
     }
 
     &__subtitle {
         text-align: right;
         margin-top: -20px;
-        @include font (Heebo, 5.25vw, normal, 1, #ffffff);
+        @include font (Heebo, 6vw, normal, 1, #ffffff);
 
-        @media screen and (min-width: 1920px) {
-            font-size: 116px;
+        @media screen and (max-width: $screen-md) {
+            font-size: 12.1vw;
         }
 
-        @media screen and (max-width: $screen-lg) {
+        @media (min-width: $screen-md) and (max-width: $screen-lg) {
             font-size: 6vw;
         }
 
-        @media screen and (max-width: $screen-md) {
-            font-size: 12.1vw !important;
-        }
-
-        @media screen and (max-width: $screen-sm) {
-            
+        @media screen and (min-width: 1920px) {
+            font-size: 116px;
         }
     }
 }

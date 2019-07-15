@@ -36,6 +36,7 @@
 
     &__item {
         @media screen and (max-width: $screen-xs) {
+            position: relative;
             margin-bottom: 70px;
         }
 
@@ -48,22 +49,20 @@
     }
 
     &__item-descr {
+        
         margin-bottom: -20px;
         @include font (Heebo, 64px, 100, null, #ffffff);
 
-        @media screen and (max-width: 560px) {
-            font-size: 6vw !important;
-        }
-
-        @media screen and (max-width: $screen-md) {
+        @media (min-width: $screen-xs) and (max-width: $screen-md) {
             font-size: 6vw;
         }
 
         @media screen and (max-width: $screen-xs) {
+            position: absolute;
+            top: -6vw;
+            left: 13vw;
             width: 100%;
-            margin-left: -30%;
-            margin-top: -120px;
-            font-size: 9vw;
+            font-size: 10vw;
         }
     }
 
@@ -78,7 +77,7 @@
 
         @media screen and (max-width: 639px) {
             padding-left: 55px;
-            padding-top: 50px;
+            
         }
 
         @media screen and (max-width: $screen-md) {
@@ -95,18 +94,9 @@
             font-size: 105px;
             line-height: 1;
 
-            @media screen and (max-width: 480px) {
-                font-size: 18.4vw;
-                margin-top: -25px;
-            }
-
-            @media screen and (max-width: $screen-xs) {
-                font-size: 18.4vw;
-            }
-
             @media screen and (max-width: $screen-md) {
                 font-size: 118px;
-                margin-top: -34px;
+                margin-top: -30px;
             }
         }
 

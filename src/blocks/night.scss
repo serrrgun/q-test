@@ -1,8 +1,9 @@
 .night {
     
+    max-width: 1190px;
     margin-top: -10px;
     padding-bottom: 75px;
-
+    
     @media screen and (max-width: $screen-sm) {
         padding-left: 5%;
         padding-right: 5%;
@@ -13,6 +14,7 @@
         
         @media screen and (max-width: $screen-sm) {
             padding-right: 0;
+            padding-top: 0;
         }
 
         @media screen and (max-width: $screen-xs) {
@@ -23,10 +25,14 @@
 
     &__title {
         text-align: right;
-        @include font (null, 3vw, 300, 1, #ad5096);
+        @include font (null, 57px, 300, 1, #ad5096);
 
         @media screen and (min-width: 1920px) {
-            font-size: 50px;
+            font-size: 57px;
+        }
+
+        @media (min-width: $screen-sm) and (max-width: 1250px) {
+            font-size: 5vw;
         }
 
         @media screen and (max-width: $screen-sm) {
@@ -36,15 +42,23 @@
 
     &__descr {
         text-align: right;
-        @include font (null, 1.57vw, normal, 1, #ffffff);
+        @include font (null, 30px, normal, 1, #ffffff);
 
         @media screen and (min-width: 1920px) {
-            font-size: 25px;
+            font-size: 30px;
+        }
+
+        @media (min-width: $screen-sm) and (max-width: 1250px) {
+            font-size: 5vw;
         }
 
         @media screen and (max-width: $screen-sm) {
             font-size: 3.9vw;
         }
+    }
+
+    &__lamp {
+        text-align: right;
     }
 
     .phone {
