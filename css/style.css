@@ -5589,7 +5589,8 @@ a.text-dark:hover, a.text-dark:focus {
     border-radius: 50px;
     height: 15.8vw; }
     .phone-mobile__wrapper:hover a {
-      text-decoration: none; }
+      text-decoration: none;
+      color: #ffffff; }
   .phone-mobile__link {
     font-family: Liddar;
     font-size: 19vw;
