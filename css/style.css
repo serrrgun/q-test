@@ -5324,19 +5324,19 @@ a.text-dark:hover, a.text-dark:focus {
   visibility: hidden !important; }
 
 .chrome {
-  background-image: url(../img/sprite-03911775229491812.png);
+  background-image: url(../img/sprite-014189350780170895.png);
   background-position: 0px 0px;
   width: 64px;
   height: 64px; }
 
 .github-logo {
-  background-image: url(../img/sprite-03911775229491812.png);
+  background-image: url(../img/sprite-014189350780170895.png);
   background-position: -68px 0px;
   width: 64px;
   height: 64px; }
 
 .placeholder {
-  background-image: url(../img/sprite-03911775229491812.png);
+  background-image: url(../img/sprite-014189350780170895.png);
   background-position: 0px -68px;
   width: 64px;
   height: 64px; }
@@ -5396,7 +5396,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding-bottom: 20px; }
   .phone__title {
     margin-bottom: 10px;
-    text-align: left;
+    text-align: center;
     font-family: Liddar;
     font-size: 3.75vw;
     line-height: 1;
@@ -5594,7 +5594,7 @@ a.text-dark:hover, a.text-dark:focus {
       text-decoration: none; }
   .phone-mobile__link {
     font-family: Liddar;
-    font-size: 19.8vw;
+    font-size: 19vw;
     line-height: 0;
     color: #ffffff;
     display: block;
@@ -8302,6 +8302,9 @@ a.text-dark:hover, a.text-dark:focus {
         font-size: 74px; }
       .phone__link {
         font-size: 127px; }
+      .phone__icon {
+        width: 170px;
+        height: 170px; }
       .night__title {
         font-size: 57px; }
       .night__descr {
