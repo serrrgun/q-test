@@ -5588,8 +5588,6 @@ a.text-dark:hover, a.text-dark:focus {
     background: #d52629;
     border-radius: 50px;
     height: 15.8vw; }
-    .phone-mobile__wrapper:hover {
-      background: rgba(213, 38, 41, 0.8); }
     .phone-mobile__wrapper:hover a {
       text-decoration: none; }
   .phone-mobile__link {
