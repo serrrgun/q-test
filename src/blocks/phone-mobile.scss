@@ -16,12 +16,9 @@
         border-radius: 50px;
         height: 15.8vw;
 
-        &:hover {
-            background: rgba($color: #d52629, $alpha: 0.8);
-        }
-
         &:hover a {
             text-decoration: none;
+            color: #ffffff;
         }
     }
 
